@@ -1,5 +1,5 @@
 {
-  "name": "terriajs",
+  "name": "leylinesjs",
   "version": "8.2.6",
   "description": "Geospatial data visualization platform.",
   "license": "Apache-2.0",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/TerriaJS/terriajs"
+    "url": "https://github.com/leylines/leylinesjs"
   },
   "config": {
     "docRepo": "git@github.com:TerriaJS/Documentation.git"
