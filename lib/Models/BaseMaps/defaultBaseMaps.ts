@@ -4,6 +4,7 @@ import { BaseMapJson } from "./BaseMapsModel";
 export function defaultBaseMaps(terria: Terria): BaseMapJson[] {
   const baseMaps: BaseMapJson[] = [];
 
+/*
   if (
     terria.configParameters.bingMapsKey &&
     !terria.configParameters.useCesiumIonBingImagery
@@ -136,6 +137,7 @@ export function defaultBaseMaps(terria: Terria): BaseMapJson[] {
     image: "build/TerriaJS/images/dark-matter.png",
     contrastColor: "#ffffff"
   });
+*/
 
   return baseMaps;
 }
