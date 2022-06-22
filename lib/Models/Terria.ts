@@ -371,7 +371,7 @@ export default class Terria {
   readonly appBaseHref: string =
     typeof document !== "undefined" ? document.baseURI : "/";
   /** Base URL to Terria resources */
-  readonly baseUrl: string = "build/TerriaJS/";
+  readonly baseUrl: string = "build/LeylinesJS/";
 
   readonly tileLoadProgressEvent = new CesiumEvent();
   readonly indeterminateTileLoadProgressEvent = new CesiumEvent();
