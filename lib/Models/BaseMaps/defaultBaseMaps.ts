@@ -4,7 +4,7 @@ import { BaseMapJson } from "./BaseMapsModel";
 export function defaultBaseMaps(terria: Terria): BaseMapJson[] {
   const baseMaps: BaseMapJson[] = [];
 
-/*
+  /*
   if (
     terria.configParameters.bingMapsKey &&
     !terria.configParameters.useCesiumIonBingImagery
