@@ -281,7 +281,7 @@ export default async function generateCatalogIndex(
 
   // Terria initialisation
   const terriaOptions = {
-    baseUrl: "build/TerriaJS"
+    baseUrl: "build/LeylinesJS"
   };
 
   const terria = new Terria(terriaOptions);

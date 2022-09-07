@@ -464,7 +464,7 @@ export default class Terria {
     defaultMaximumShownFeatureInfos: 100,
     catalogIndexUrl: undefined,
     regionMappingDefinitionsUrl: undefined,
-    regionMappingDefinitionsUrls: ["build/TerriaJS/data/regionMapping.json"],
+    regionMappingDefinitionsUrls: ["build/LeylinesJS/data/regionMapping.json"],
     proj4ServiceBaseUrl: "proj4def/",
     corsProxyBaseUrl: "proxy/",
     proxyableDomainsUrl: "proxyabledomains/", // deprecated, will be determined from serverconfig
