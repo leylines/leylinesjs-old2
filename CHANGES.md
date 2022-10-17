@@ -16,6 +16,10 @@
 - Added missing `proxyCatalogItemUrl` to GeoJson, Shapefile, Gltf and AssImp catalog items.
 - Added support for `OpenDataSoftCatalogGroup` with more than 100 datasets.
 - Added `refreshIntervalTemplate` to `OpenDataSoftCatalogItemTraits` - this can be used to set `refreshInterval` using Mustache template rendered on ODS Dataset JSON object.
+- Tweak `generateCatalogIndex` to use less memory. (+ add `diffCatalogIndex.js` script to show added/removed members between two catalog index files)
+- Migrated `/#tools=1` to version 8.
+- Removed dummy function `Terria.getUserProperty`.
+- Removed unused version 7 React components.
 
 - [The next improvement]
 
