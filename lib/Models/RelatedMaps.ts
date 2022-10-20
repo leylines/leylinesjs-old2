@@ -8,7 +8,7 @@ export interface RelatedMap {
 export const defaultRelatedMaps: RelatedMap[] = [
   {
     imageUrl:
-      "images/relted/megalithic_logo_150.gif",
+      "images/related/megalithic_logo_150.gif",
     url: "https://www.megalithic.co.uk",
     title: "The Megalithic Portal",
     description:
