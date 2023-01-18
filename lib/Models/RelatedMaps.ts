@@ -16,10 +16,10 @@ export const defaultRelatedMaps: RelatedMap[] = [
   },
   {
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Antarctica_%28orthographic_projection%29.svg/512px-Antarctica_%28orthographic_projection%29.svg.png",
+      "images/related/antarctica.png",
     url: "https://antarctica.hidden-history.ch",
     title: "Antarctica and beyond",
     description:
-      "Map and timeline of Antarctica"
+      "Map and Timeline of Antarctica"
   },
 ];
