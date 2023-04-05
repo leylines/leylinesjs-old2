@@ -1,6 +1,10 @@
 # Change Log
 
-#### next release (8.2.27)
+#### next release (8.2.28)
+
+- [The next improvement]
+
+#### 8.2.27 - 2023-04-05
 
 - Change icon used for display group remove button
 - Make access control UI compatible to Magda v1 and v2 with v2 overriding v1.
@@ -8,7 +12,10 @@
 - Add method `addFileDragDropListener` for receiving callbacks when user drags-n-drops a file.
 - Improve `BoxDrawing` drag interaction.
 - Fix a bug where `BoxDrawing` sometimes causes the map to loose pan and zoom interactivity.
-- [The next improvement]
+- Optimize `LocationBar` component to reduce number of renders on mouse move.
+- Optimize `Compass` component to reduce renders on each frame.
+- Add `children` optional property to StandardUserInterfaceProps interface
+- Add support for ArcGis MapServer with `TileOnly` capability - for example layers served from ArcGis Online. This is supported through `ArcGisMapServerCatalogItem`, `ArcGisMapServerCatalogGroup` and `ArcGisCatalogGroup`.
 
 #### 8.2.26 - 2023-03-21
 
