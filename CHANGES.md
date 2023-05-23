@@ -1,8 +1,21 @@
 # Change Log
 
-#### next release (8.2.29)
+#### next release (8.3.1)
 
 - [The next improvement]
+
+#### 8.3.0 - 2023-05-22
+
+- **Breaking changes:**
+
+  - **Upgraded Mobx to version 6.7.x**
+  - **Upgraded Typescript to version 4.9.x**
+
+#### 8.2.29 - 2023-05-18
+
+- Fix app crash when rendering feature info with a custom title.
+- Added new `CkanCatalogGroup` traits `resourceIdTemplate` and `restrictResourceIdTemplateToOrgsWithNames` to generate custom resource IDs for CKAN resources with unstable IDs.
+- Fix `acessType` resolution for `MagdaReference` so that it uses the default terria resolution strategy when `magdaRecord` is not defined.
 
 #### 8.2.28 - 2023-04-28
 
